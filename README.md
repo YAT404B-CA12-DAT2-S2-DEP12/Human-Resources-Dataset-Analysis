@@ -1,4 +1,3 @@
-# ![Company Logo](media/image1.jpg)  
 **Human Resources Dataset Analysis**  
 *Supervised By: Kareem Bakli*  
 
@@ -151,4 +150,4 @@
 
 ---
 
-**This dashboard empowers HR teams to make data-driven decisions and optimize workforce planning.**  
+
