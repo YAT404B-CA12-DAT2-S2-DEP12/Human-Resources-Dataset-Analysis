@@ -4,7 +4,7 @@
 ---
 
 ## Team Members  
-- **Sarah Mohamed** (Team Leader)  
+- **Sarah Mahmoud** (Team Leader)  
 - Menna Allah Mohamed  
 - Sama Hossamelden  
 - Heba Emad  
