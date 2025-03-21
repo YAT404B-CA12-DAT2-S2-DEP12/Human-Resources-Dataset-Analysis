@@ -55,7 +55,16 @@
 
 ---
 
-## 4. Key Performance Indicators (KPIs)  
+## 4. Task Assignment & Roles
+| **Task**                                | **Member Assigned to**               |
+|-----------------------------------------|--------------------------------------|
+| **Data Cleaning & Transformation**      | Mohamed Tamer & Menna allah Mohamed  |
+| **Dashboard Design & KPIs**             | Heba Emad & Sama Hossamelden         |
+| **Report Storytelling & Interactivity** | Sarah Mahmoud & Sohila Abdalla       |
+
+---
+
+## 5. Key Performance Indicators (KPIs)  
 | **Category**              | **KPIs**                                  |
 |---------------------------|-------------------------------------------|
 | **Employee Retention**    | Turnover Rate, Average Tenure            |
@@ -65,7 +74,7 @@
 
 ---
 
-## 5. Milestones  
+## 6. Milestones  
 | **Milestone**                | **Description**                          |
 |------------------------------|------------------------------------------|
 | **Data Preparation**         | Extract, clean, preprocess HR data.      |
@@ -75,7 +84,7 @@
 
 ---
 
-## 6. Resources Required  
+## 7. Resources Required  
 | **Resource Type**             | **Tools & Technologies**                |
 |-------------------------------|-----------------------------------------|
 | **Data Processing**           | SQL, Power Query                        |
@@ -85,7 +94,7 @@
 
 ---
 
-## 7. Dataset Overview  
+## 8. Dataset Overview  
 **Files Included:**  
 - `Employee.csv`  
 - `PerformanceRating.csv`  
@@ -111,7 +120,7 @@
 
 ---
 
-## 8. Requirements Gathering & Analysis  
+## 9. Requirements Gathering & Analysis  
 **Stakeholders:** HR Managers, Recruiters, Executives, Employees.  
 
 **User Stories:**  
@@ -128,7 +137,7 @@
 
 ---
 
-## 9. System Design & Architecture  
+## 10. System Design & Architecture  
 **Problem Statement:** HR departments lack real-time workforce insights.  
 
 **Technical Stack:**  
@@ -143,7 +152,7 @@
 
 ---
 
-## 10. Deployment  
+## 11. Deployment  
 - Publish to **Power BI Service**.  
 - Configure automated data refresh.  
 - Train stakeholders on dashboard usage.  
