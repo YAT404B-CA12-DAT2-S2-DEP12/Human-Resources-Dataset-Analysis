@@ -1,158 +1,154 @@
-# Human-Resources-Dataset-Analysis
-# Power BI Project: HR Performance Dashboard
-# 1. Project Overview
-Objective: Develop an interactive Power BI dashboard to provide HR teams with real-time insights into workforce performance, employee retention, and hiring efficiency.
+# ![Company Logo](media/image1.jpg)  
+**Human Resources Dataset Analysis**  
+*Supervised By: Kareem Bakli*  
 
-Scope: 
-•	Analyze key HR metrics, including employee demographics, recruitment efficiency, retention rates, absenteeism, and performance trends.
-•	The dashboard will offer insights to support data-driven decision-making and improve workforce management.
+---
 
-Project Plan:
-Phase                                        | Task
--------------                                | -------------
-1. Requirements Gathering & Analysis         | Identify KPIs, gather user stories, define functional & non-functional requirements.
-2. System Design & Architecture              | evelop technical architecture, use case diagrams, and database structure.
-3. Data Collection & Preparation             | Extract HR data from SQL Server & Excel, clean & preprocess data.
-4. Data Modeling & Transformation            | Build Power BI data model, optimize relationships, implement DAX measures.
-5. Dashboard UI/UX Design & Development      | Create interactive visuals, apply filters, ensure accessibility.
-6. Interactivity & Performance Optimization  | Implement real-time insights, optimize performance, and ensure fast loading time.
-7. Testing & Validation                      | Validate data consistency, check filter interactions, performance testing.
-8. Deployment & Stakeholder Training         | Publish to Power BI Service, automate data refresh, train HR users.
+## Team Members  
+- **Sarah Mohamed** (Team Leader)  
+- Menna Allah Mohamed  
+- Sama Hossamelden  
+- Heba Emad  
+- Sohila Abdalla  
+- Mohamed Tamer  
 
-Key Performance Indicators (KPIs):
-Category             | Key Performance Indicators (KPIs)
--------------        | -------------
-Employee Retention   | Employee Turnover Rate, Average Employee Tenure
-Hiring Efficiency    | Time-to-Hire
-Workforce Insights   | Absenteeism Rate
-Employee Engagement  | Employee Satisfaction Score
+---
 
+## 1. Project Overview  
+**Objective:** Develop an interactive Power BI dashboard to provide HR teams with real-time insights into workforce performance, employee retention, and hiring efficiency.  
 
-# 2. Project Management & Execution
+---
 
-Timeline: Utilize a Gantt chart outlining major phases: data collection, transformation, modeling, visualization, testing, and deployment.
+## 2. Features  
+### Recruitment Efficiency Monitoring  
+- Track time-to-hire, hiring sources, and recruitment success rates.  
+- Identify effective hiring channels and recruitment processes.  
 
-Milestones:
-Milestone	Description
-Milestone                     | Description
--------------                 | -------------
-Data Preparation              | Extract, clean, and preprocess HR data from sources.
-Dashboard Design              | Develop layout, UI/UX, and define visualization structure.
-Interactivity Implementation  | Add filters, slicers, and dynamic visual elements.
-Final Review & Optimization   | Validate accuracy, optimize performance, and ensure responsiveness.
+### Retention & Attrition Insights  
+- Compare tenure across departments, job roles, and age groups.  
+- Predict attrition using historical data trends and AI forecasting.  
 
-Resources Required: 
-Resource Type                     | Tools & Technologies
--------------                     | --------------------
-Data Processing & Transformation  | SQL, Power Query (within Power BI)
-Data Storage & Management         | SQL Server, Excel
-Visualization & Reporting         | Power BI
-Calculations & Measures           | DAX (in Power BI)
+### Performance & Productivity Analysis  
+- Visualize performance ratings across roles and departments.  
+- Correlate performance with salary, tenure, and satisfaction levels.  
 
-Team Responsibilities:
-•	Data Collection: Assigned to a data analyst.
-•	Data Cleaning & Transformation: Managed by a data engineer.
-•	Dashboard Design & Insights Development: Led by a data visualization specialist.
-•	Risk Mitigation Strategies:
-•	Data Inconsistencies: Implement robust validation techniques.
-•	Performance Issues: Optimize DAX queries and enhance data modeling efficiency.
+### Job Satisfaction & Engagement Metrics  
+- Evaluate satisfaction scores across departments and roles.  
+- Detect low engagement areas and root causes.  
 
-# 3. Dataset Summary
-  Files Included:
-•	Employee.csv – Employee records (ID, Name, Age, Gender, Department, etc.).
-•	PerformanceRating.csv – Employee performance scores.
-•	EducationLevel.csv – Academic qualifications.
-•	RatingLevel.csv – Performance rating classifications.
-•	SatisifiedLevel.csv – Job satisfaction data.
+### Interactive Filtering & Data Exploration  
+- Filter data by department, job role, gender, etc.  
+- Dynamic visuals for real-time insights.  
 
- Core Dataset (Employee.csv):
-Column Name              | Description
--------------            | -------------
-EmployeeID               | Unique identifier for each employee
-FirstName                | Employee's first name
-LastName                 | CEmployee's first name
-Gender                   | Employee's gender
-Age                      | Employee's age
-BusinessTravel           | Frequency of business travel
-Department               | Department where the employee works
-DistanceFromHome (KM)    | Distance from home to workplace (in KM)
-State                    | Employee's state of residence
-Ethnicity                | Employee's ethnicity
-Education                | Employee's education level
-EducationField           | Field of study related to education
-JobRoleM                 | Employee's job title/role
-MaritalStatus            | Marital status of the employee
-Salary                   | Employee's salary
-StockOptionLevel         | Stock option level assigned to the employee
-OverTime                 | Indicates if the employee works overtime (Yes/No)
-HireDate                 | Date when the employee was hired
-Attrition                | Indicates if the employee has left the company (Yes/No)
-YearsAtCompany           | Total years worked at the company
-YearsInMostRecentRole    | Years spent in the current role
-YearsSinceLastPromotion  | Years since the last promotion
-YearsWithCurrManager     | Years working with the current manager
+---
 
+## 3. Project Plan & Management  
+| **Phase**                          | **Tasks**                                  |
+|------------------------------------|--------------------------------------------|
+| **1. Requirements Gathering & Analysis** | Identify KPIs, gather user stories, define requirements. |
+| **2. System Design & Architecture**     | Develop technical architecture, database structure.      |
+| **3. Data Collection & Preparation**     | Extract HR data from SQL Server & Excel, clean data.      |
+| **4. Data Modeling & Transformation**    | Build Power BI data model, optimize relationships, DAX.  |
+| **5. Dashboard UI/UX Design & Development** | Create interactive visuals, ensure accessibility.        |
+| **6. Interactivity & Performance Optimization** | Implement real-time insights, optimize loading time.     |
+| **7. Testing & Validation**               | Validate data consistency, test filters and performance. |
+| **8. Deployment & Stakeholder Training**  | Publish to Power BI Service, automate refresh, train users. |
 
-# 4. Requirements Gathering & Analysis
- Stakeholders: HR Managers, Recruiters, Executives, and Employees.
+---
 
- User Stories:
-•	"As an HR Manager, I want to track employee turnover trends to improve retention strategies."
-•	"As a Recruiter, I need real-time insights into hiring metrics to optimize recruitment pipelines."
+## 4. Key Performance Indicators (KPIs)  
+| **Category**              | **KPIs**                                  |
+|---------------------------|-------------------------------------------|
+| **Employee Retention**    | Turnover Rate, Average Tenure            |
+| **Hiring Efficiency**     | Time-to-Hire                             |
+| **Workforce Insights**    | Absenteeism Rate                         |
+| **Employee Engagement**   | Satisfaction Score                       |
 
- Functional Requirements:
-•	Comprehensive employee performance analysis.
-•	Real-time tracking of hiring trends and workforce demographics.
-•	Detailed absenteeism and turnover insights.
+---
 
- Non-Functional Requirements:
-•	The dashboard must load in under 5 seconds.
-•	The UI should prioritize clarity, accessibility, and intuitive navigation.
+## 5. Milestones  
+| **Milestone**                | **Description**                          |
+|------------------------------|------------------------------------------|
+| **Data Preparation**         | Extract, clean, preprocess HR data.      |
+| **Dashboard Design**         | Develop layout, UI/UX, visualization.   |
+| **Interactivity Implementation** | Add filters, slicers, dynamic visuals.  |
+| **Final Review & Optimization** | Validate accuracy, optimize performance. |
 
+---
 
-# 5. System Design & Architecture
- Problem Statement: HR departments face challenges in accessing real-time, actionable insights on workforce dynamics and performance.
+## 6. Resources Required  
+| **Resource Type**             | **Tools & Technologies**                |
+|-------------------------------|-----------------------------------------|
+| **Data Processing**           | SQL, Power Query                        |
+| **Data Storage**              | SQL Server, Excel                       |
+| **Visualization**             | Power BI                                |
+| **Calculations**              | DAX (Power BI)                          |
 
- Use Case Diagram: Depicts interactions between HR managers, recruiters, executives, and the dashboard.
+---
 
- Technical Architecture: Power BI serves as the visualization tool, with data sourced from SQL Server and Excel.
+## 7. Dataset Overview  
+**Files Included:**  
+- `Employee.csv`  
+- `PerformanceRating.csv`  
+- `EducationLevel.csv`  
+- `RatingLevel.csv`  
+- `SatisifiedLevel.csv`  
 
- Database Structure:
-•	Tables: Employees, Departments, Recruitment, and Attendance.
-•	Optimization: Implementation of indexing, foreign keys, and primary keys to enhance query performance.
+### Core Dataset (`Employee.csv`)  
+| **Column Name**               | **Description**                          |
+|-------------------------------|------------------------------------------|
+| EmployeeID                    | Unique identifier                       |
+| FirstName                     | Employee's first name                   |
+| LastName                      | Employee's last name                    |
+| Gender                        | Employee's gender                       |
+| Age                           | Employee's age                          |
+| Department                    | Employee's department                   |
+| JobRole                       | Employee's job title                    |
+| Salary                        | Employee's salary                       |
+| Attrition                     | Left the company (Yes/No)               |
+| YearsAtCompany                | Total years at the company              |
 
- Data Flow & Processing:
-•	Data extraction from HR databases and transformation in Power Query.
-•	Power BI processes and visualizes insights for real-time decision-making.
+*(Full column list available in documentation)*  
 
+---
 
-# 6. UI/UX Design & Deployment Strategy
- Dashboard Layout:
-•	KPIs prominently displayed at the top.
-•	Filters for dynamic data exploration on the left.
-•	Interactive visualizations in the central workspace.
- Design Guidelines:
-•	Professional color palette aligned with company branding.
-•	Interactive slicers for customized analysis.
-•	Readable typography ensuring accessibility.
+## 8. Requirements Gathering & Analysis  
+**Stakeholders:** HR Managers, Recruiters, Executives, Employees.  
 
- Deployment Plan:
-•	Technology Stack: Power BI, SQL Server, Excel for initial data sources, and DAX for advanced calculations.
-•	Deployment Diagram: Outlines integration between Power BI Service and cloud-based data sources.
-•	Component Structure: Defines dataset management, data model organization, and visualization layers.
+**User Stories:**  
+- *“As an HR Manager, I want to track turnover trends to improve retention.”*  
+- *“As a Recruiter, I need real-time hiring metrics to optimize pipelines.”*  
 
+**Functional Requirements:**  
+- Employee performance analysis.  
+- Real-time hiring trend tracking.  
 
-# 7. Additional Deliverables & Quality Assurance
- API Documentation: If external HR systems are integrated, endpoints and data formats will be documented.
- 
- Testing & Validation:
-•	Ensuring data consistency and accuracy.
-•	Verifying filter interactions and responsiveness.
-•	Conducting performance testing to maintain efficiency.
+**Non-Functional Requirements:**  
+- Dashboard loads in <5 seconds.  
+- Intuitive UI with clear navigation.  
 
- Final Deployment:
-•	Publish the dashboard to Power BI Service.
-•	Configure automated data refresh schedules.
-•	Provide stakeholder training for optimal usage.
+---
 
-This HR Performance Dashboard will empower HR teams with actionable insights, enabling them to make informed decisions, improve employee experience, and optimize workforce planning.
+## 9. System Design & Architecture  
+**Problem Statement:** HR departments lack real-time workforce insights.  
+
+**Technical Stack:**  
+- **Visualization:** Power BI  
+- **Data Sources:** SQL Server, Excel  
+- **Database:** Indexed tables (Employees, Departments, Recruitment)  
+
+**UI/UX Design:**  
+- KPIs displayed at the top.  
+- Left-panel filters for dynamic exploration.  
+- Professional color palette and typography.  
+
+---
+
+## 10. Deployment  
+- Publish to **Power BI Service**.  
+- Configure automated data refresh.  
+- Train stakeholders on dashboard usage.  
+
+---
+
+**This dashboard empowers HR teams to make data-driven decisions and optimize workforce planning.**  
