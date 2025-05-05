@@ -12,7 +12,7 @@
 - Mohamed Tamer  
 
 ---
-Project Link Drive : [I'm an inline-style link](https://www.google.com)
+Project Link Drive : [Click Here To See The Project Dashboards, Documenatation And Presentation](https://drive.google.com/drive/u/0/folders/1bx8-RcAZr9IzXVj25FfGy8Xw9r-HA_dz)
 
 ## 1. Project Overview  
 **Objective:** Develop an interactive Power BI dashboard to provide HR teams with real-time insights into workforce performance, employee retention, and hiring efficiency.  
